@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>meetingform</title>
+		<meta name="description" content="">
+		<meta name="author" content="m">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<style>
+  	body{
+  		background-color:  	#F0E6D9;
+  		font-family: calibri;
+  	}
+  	
+  	#p1{
+  		 
+  		font-style: calibri;
+  		color: #A0522D;
+  		font-size: 40px;
+  	}
+  	
+  	#for1{
+  		 
+  	      
+  		
+  	}
+  	
+  	
+  	#but1{
+  		 
+  		color:  #A0522D;
+  		margin-left: 1000px;
+  		size:20px; 
+  		font-size: 20px;
+	    font-family: calibri;
+  		
+  	}
+  	
+  		#select{
+  		background-color: Peru;
+  		width: 1200px;
+  		height: 40px;
+  		font-size: 20px;
+  		color: black;
+  		font-family: calibri;
+  		margin-left: 80px;
+  		margin-right: 80px;
+  		border-bottom-left-radius: 20 ;
+  		border-bottom-right-radius: 20 ;
+  		border-bottom-style: solid;
+  		border-width: medium;
+  	}
+  	
+  	#tab1{
+  		 
+  		width:650px;
+  		height: 300px;
+  		margin-left: 100px;
+  		
+  	}
+  	
+  	 
+  	
+   
+  </style>
+	</head>
+
+	<body>
+		 
+			<header>
+				 
+			</header>
+			<nav>
+				<p>
+					 
+				</p>
+				<p>
+					 
+				</p>
+			</nav>
+
+			<div>
+
+			</div>
+			
+			<div id="select">
+      <b><h2>YOUR SELECTION</h2></b>
+    </div>
+   
+     <br /> 
+    <div id="na1">
+    <form id="for1" name="forme" method="post" action="eventcheck.php" >
+    <p id="p1">
+    	 
+    
+    
+    <table id="tab1">
+    	<tr> 
+            <td>  Select Event</td>
+            <td style="size: 20px"> <select name ="Event" >
+        	                    <option>Meeting</option>
+        	                    <option>Party</option>
+        	                    <option>Workshop</option>
+        	                    <option>Theatre</option>
+                                </select>                    </td>  
+        </tr>
+        <tr>
+        	<td>How many guests will attend</td>
+        	<td> <input type="text" name="numbers" /> </td>
+        </tr> 
+            
+   
+    
+         <tr>
+         	<td>Select Fixture set up </td>
+         	<td>    <select name ="Fixture" >
+        	                    <option>Conference</option>
+        	                    <option>Classroom</option>
+        	                    <option>Banquet</option>
+        	                    <option>Square</option>
+        	                    <option>Reception</option>
+        	                    <option>Theatre</option>
+        	                    <option>U-Shape</option>
+        	                     	                    
+                                </select>                    </td> 
+            
+         </tr>
+      
+       <tr>
+       	
+         <tr>
+            	<td>Select Date</td>
+            	<td><input type="date"   name="Date"/>
+            		 
+            	</td>
+            </tr>
+
+         
+                    
+         
+          
+           <tr> 
+            <td>Select Session  </td>
+            <td> <select name ="session" >
+        	                    <option>Morning</option>
+        	                    <option>Afternoon</option>
+        	                    <option>Evening</option>
+        	                    <option>Half Day</option>
+        	                    <option>Full Day</option>
+        	                    
+                                              </select>    </td>
+         </tr>  
+         
+         <tr>
+         	<td> Select hours per Day</td>
+         	<td><select name="hours">
+         		             <option>4 Hours</option>
+         		             <option>5 Hours</option>
+         		             <option>6 Hours</option>
+         		             <option>7 Hours</option>
+         		             <option>12 Hours</option>
+         		     
+         	                                  </select></td>
+         </tr>                    
+    
+     
+     
+     
+    
+        </table>
+
+    </p>
+    <input type="submit" value="Check Availability"   id="but1"     />
+    
+      </form>
+      </div>
+
+     
+   
+ 
+ 
+
+
+     
+
+
+     
+ 
+
+			<footer>
+				<p>
+				</p>
+			</footer>
+		 
+	</body>
+</html>

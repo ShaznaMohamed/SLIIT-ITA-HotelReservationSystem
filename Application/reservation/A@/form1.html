@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Availability</title>
+  <meta name="description" content="">
+  <meta name="author" content="m">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ 
+
+
+
+  
+  <style>
+  	body{
+  		background-color:  	#E4DCBB;
+  		font-family: calibri;
+  	}
+  	
+  	#p1{
+  		 
+  		font-style: calibri;
+  		color: #A0522D;
+  	}
+  	
+  	#for1{
+  		 
+  	      
+  		
+  	}
+  	
+  	
+  	#but1{
+  		 
+  		 border-radius:2em;
+  		 background-color:#F4A460;
+  		color:  #A0522D;
+  		margin-left: 1000px;
+  		size:20px; 
+  		font-size: 20px;
+	    font-family: calibri;
+  		
+  	}
+  	
+  		#select{
+  	
+  		width: 1200px;
+  		height: 40px;
+  		font-size: 10px;
+  		color:#A0522D;
+  		font-family: calibri;
+  		margin-left: 80px;
+  		margin-right: 80px;
+  		border-bottom-left-radius: 20 ;
+  		border-bottom-right-radius: 20 ;
+  
+  		border-width: medium;
+  	}
+  	
+  	#tab1{
+  		
+  		width:500px;
+  		height: 200px;
+  		margin-left: 100px;
+  		
+  	}
+  	
+  	 
+  	
+   
+  </style>
+  
+       
+
+<script type="text/javascript">
+   function formvalidate()
+   {
+   	
+   	var Selected Room=document.forms["forme"]["Room"].value;
+   	var No of Rooms=document.forms["forme"]["Number"].value;
+   	var Checkin_Date=document.forms["forme"]["Date"].value;
+   	var Checkout_Date=document.forms["forms"]["Date"].value;
+  
+   	
+   }
+   function isEmpty(elemValue,field){
+   	if(elemValue==" "|| elemValue==null){
+   		alert("You cannot have"+field+"field empty");
+   		return true;
+   		
+   	}else
+   	  return false;
+   }
+   
+    function isEmpty(elemValue,field){
+   	if(elemValue==" "|| elemValue==null){
+   		alert("You cannot have"+field+"field empty");
+   		return true;
+   		
+   	}else
+   	  return false;
+   }
+   
+ function Checkin_Date(elemValue) {
+if (elemValue == "Please Choose") {
+alert("Choose a Date");
+return false;
+}
+else
+return true;
+   
+ }
+ 
+ function Checkout_Date(elemValue) {
+if (elemValue == "Please Choose") {
+alert("Choose a Date");
+return false;
+}
+else
+return true;
+}
+   
+   
+   
+   function formvalidate()
+   {
+   	
+   	var Selected Room=document.forms["forme"]["Room"].value;
+   	var No of Rooms=document.forms["forme"]["Number"].value;
+   	var Checkin_Date=document.forms["forme"]["Date"].value;
+   	var Checkout_Date=document.forms["forms"]["Date"].value;
+  
+   	if(isEmpty(Selected Room))
+   	  if(isEmpty(No of Room))
+   	    if(Selected Date(Checkin_Date))
+   	       if(Selected Date(Checkout_Date))
+   	               return true;
+   	              else
+   	                return true;
+   	                else
+   	                 return false;
+   	                else
+   	                  return false;
+   	                else
+   	                  return false;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+</script>
+   
+
+  
+</head>
+
+<body>
+	
+	
+	
+  <div>
+    <header>
+       
+    </header>
+    <nav>
+       
+    </nav>
+  
+  	
+   <br /> 
+    <div id="select">
+      <h1>YOUR SELECTION</h1>
+    </div>
+   
+     <br /> 
+    <div id="na1">
+    <form name="forme" method="post" action="ch.php" onsubmit="formvalidation()">
+    <p id="p1">
+    	 
+    
+    
+    <table id="tab1">
+    	<tr> 
+            <td><b>Selected_Room:</b></td>
+            <td> <select name ="Room">
+            	                
+        	              <option>Rooms</option>
+     					 <option>Delux Courtyard Room</option>
+						 <option>Terrace Suite</option>
+						 <option> Royal Suite</option>
+						 <option> Honeymoon Suite</option>
+						 <option>Petite Lux Suite</option>
+                                </select>                    </td>  
+        </tr>
+        <tr>
+        	<td><b>No_of_Rooms:</b></td>
+        	<td><select name ="Number" >
+        		                <option>Number</option>
+        	                    <option>1</option>
+        	                    <option>2</option>
+        	                    <option>3</option>
+        	                    <option>4</option>
+                                </select>                    </td>
+        </tr> 
+            
+            
+            
+   <tr>
+      			<td><b>Checkin_Date: </b></td>
+      			<td> <input type="date" name="data1" /></td>
+      			 
+        <tr> 
+      <td><b>Checkout_Date:</b> </td>
+      <td> <input type="date" name="data2" /></td>
+      
+      
+         
+     	
+                       	 <tr>
+                       	 <td><b>Adults:</b> </td>
+                       	<td><select name="Adults">
+                       	<option>-</option>
+						 <option>1</option>
+						 <option>2</option>
+						 <option>3</option>
+						 <option>4</option>
+						 <option>5+</option>
+						 </select>
+                      
+						 </tr>
+					
+						  <tr>
+                       	 <td><b>Children:</b></td>
+                       	<td><select name="Children">
+                       	<option>-</option>
+						 <option>1</option>
+						 <option>2</option>
+						 <option>3</option>
+						 <option>4</option>
+						</select>
+						 
+						 
+						</td>
+                        </tr>
+    
+        </table>
+
+    </p>
+    <input type="submit" value="Check Availability"   id="but1"  />
+    
+      </form>
+      </div>
+
+     
+   
+ 
+ 
+
+
+     
+
+
+    <footer>
+     
+    </footer>
+    
+    
+    
+    
+  </div>
+</body>
+</html>

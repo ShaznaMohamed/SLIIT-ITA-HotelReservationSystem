@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>form</title>
+  <meta name="description" content="">
+  <meta name="author" content="m">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+  	body{
+  		background-color:  	#F0E6D9  ;
+  		font-family: calibri;
+  	}
+  	
+  	#p1{
+  		 
+  		font-style: calibri;
+  		color: #A0522D;
+  	}
+  	
+  	#for1{
+  		 
+  	      
+  		
+  	}
+  	
+  	
+  	#but1{
+  		 
+  		color:  #A0522D;
+  		margin-left: 1000px;
+  		size:20px; 
+  		font-size: 20px;
+	    font-family: calibri;
+  		
+  	}
+  	
+  		#select{
+  		background-color: Peru;
+  		width: 1200px;
+  		height: 40px;
+  		font-size: 20px;
+  		color: black;
+  		font-family: calibri;
+  		margin-left: 80px;
+  		margin-right: 80px;
+  		border-bottom-left-radius: 20 ;
+  		border-bottom-right-radius: 20 ;
+  		border-bottom-style: solid;
+  		border-width: medium;
+  	}
+  	
+  	#tab1{
+  		
+  		width:500px;
+  		height: 200px;
+  		margin-left: 100px;
+  		
+  	}
+  	
+  	 
+  	
+   
+  </style>
+  <!--<script type="text/javascript">
+  	      
+  	      function availablealert()
+  	       {
+			 alert ("Your Selection is  not available for the moment. Please try for another. "); 
+		   }
+  </script> 
+         -->
+  
+</head>
+
+<body>
+	
+	
+	
+  <div>
+    <header>
+       
+    </header>
+    <nav>
+       
+    </nav>
+  
+  	
+   <br /> 
+    <div id="select">
+      <b><h2>YOUR SELECTION</h2></b>
+    </div>
+   
+     <br /> 
+    <div id="na1">
+    <form id="for1" name="forme" method="post" action="check1.php" >
+    <p id="p1">
+    	 
+    
+    
+    <table id="tab1">
+    	<tr> 
+            <td>  Select Hall</td>
+            <td style="size: 20px"> <select name ="Hall" size="1" >
+            	                 
+        	                    <option>Flora</option>
+        	                    <option>Neon Light</option>
+        	                    <option>Charlotte</option>
+        	                    <option>Cecilia</option>
+                                </select>                    </td>  
+        </tr>
+        <tr>
+        	<td>No of Halls </td>
+        	<td><select name ="Number" >
+        	                    <option>1</option>
+        	                    <option>2</option>
+        	                    <option>3</option>
+        	                    <option>4</option>
+                                </select>                    </td>
+        </tr> 
+            
+            <tr>
+            	<td>Select Date</td>
+            	<td><input type="date"   name="Date"/>
+            		 
+            	</td>
+            </tr>
+   
+    
+        
+         <tr> 
+            <td>Select Session  </td>
+            <td> <select name ="session" >
+        	                    <option>Morning</option>
+        	                    <option>Afternoon</option>
+        	                    <option>Evening</option>
+        	                    <option>Half Day</option>
+        	                    <option>Full Day</option>
+        	                    
+                                              </select>    </td>
+         </tr>  
+         
+         <tr>
+         	<td> Select Hours</td>
+         	<td><select name="hours">
+         		             <option>4  </option>
+         		             <option>5 </option>
+         		             <option>6 </option>
+         		             <option>7 </option>
+         		             <option>12</option>
+         		     
+         	                                  </select></td>
+         </tr>                    
+    
+     
+     
+     
+    
+        </table>
+
+    </p>
+    <input type="submit" value="Check Availabillity"   id="but1"     />
+    
+      </form>
+      </div>
+
+     
+   
+ <!--  <form action="demo_form.asp">
+  Birthday:
+  <input type="date" name="bday">
+  <input type="submit" value="Send">
+</form>
+
+  -->
+ 
+
+
+     
+
+
+    <footer>
+     
+    </footer>
+    
+    
+    
+    
+  </div>
+</body>
+</html>

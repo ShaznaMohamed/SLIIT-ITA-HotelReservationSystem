@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		
+		<title> Sienna </title>
+		
+		<link rel="stylesheet" type="text/css" href="css/guestinfo.css" />
+	</head>
+	<body bgcolor="#E4DCBB">
+		
+
+		<div class="topic">
+		<form>
+			<p>
+			<img border="0" src="../../images/Gif%20files/Reservation.gif" width="291" height="88"></p>
+			<fieldset style="width: 1200px">
+				<legend><font face="Calibri">Selection summary</font></legend>
+				<dl>
+			
+		
+		
+		<div class="tbl1">
+			<table width="75%" cellspacing="2" cellpadding="2" border="0" style="background-color:#D3D3D3" align="center">
+				<tbody>
+					<tr>
+						<td class="td_bg">
+							<table width="100%" cellspacing="0" cellpadding="3" border="0">
+								<tbody>
+									<tr>
+									
+										<td width="15%" ><font face="Calibri">Check In Date</font></td>
+										<td width="15%"><font face="Calibri">Check Out Date</font></td>
+										<td width="15%"><font face="Calibri">Room Type</font></td>
+										<td width="15%"><font face="Calibri">Amount</font></td>
+									</tr>
+									<tr>
+									
+										<td width="15%"> <font face="Calibri">31-08-2014 
+										</font> </td>
+										<td width="15%"> <font face="Calibri">01-09-2014 
+										</font> </td>
+										<td width="15%"> <font face="Calibri">Standard</font></td>
+										<td width="15%"> <font face="Calibri">Rs.28000</td>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+				</dl>
+			</font>
+		</div>
+						
+			<font face="Calibri">
+						
+			</fieldset>
+		</form>
+		<br />
+		<br />
+		<br />
+
+		</font>
+
+		<div class="topic">
+		<form name="myform" method="post" action="insert.php">
+			<div style="position: absolute; width: 121px; height: 27px; z-index: 1; left: 836px; top: 834px" id="layer1">
+				<font face="Calibri">
+				<input id="submit_1" class="button proceed" type="submit" value="Submit" name="submit1" width="100" align="right"></font></div>
+			<fieldset style="width: 1200px">
+				<legend><font face="Calibri">Guest information</font></legend>
+					
+			<dl>
+				<font face="Calibri">
+				<label class="label optional" for="guest_title">Title</label><br />
+				<select id="guest_title" class="formfield" name="guesttitle">
+					<option label="Mr." value="0">Mr.</option>
+					<option label="Mrs." value="1">Mrs.</option>
+					<option label="Ms." value="2">Ms.</option>
+				</select>
+				<br/>
+				<br/>
+				
+				
+				</font>
+				
+				
+				<table cellpadding="5">
+					<tr>
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-fn">First Name*</label><br/>
+						<input id="guest-fn" type="text" value="" name="guestfirstname"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-Ln">Last Name*</label><br/>
+						<input id="guest-Ln" type="text" value="" name="guestlastname"></font></td>
+						
+						<td width="20%" ></td>
+					</tr>
+					
+					<tr>
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-add1">Address Line 1*</label><br/>
+						<input id="guest-add1" type="text" value="" name="addressline1"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-add2">Address Line 2*</label><br/>
+						<input id="guest-add2" type="text" value="" name="addressline2"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-city">City*</label><br/>
+						<input id="guest-city" type="text" value="" name="city"></font></td>
+					</tr>
+					
+					<tr>
+						<td width="20%" ><font face="Calibri"><label class="label optional" for="zipcode">Zip Code</label><br/>
+						<input id="zipcode" class="" type="text" value="" name="zipcode"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label optional" for="state">State</label><br/>
+						<input id="state" class="" type="text" value="" name="state"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="country">Country*</label><br/>
+						<input id="country" class="" type="text" value="" name="country"></font></td>
+					</tr>
+					
+					<tr>
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-phone">Phone*</label><br/>
+						<input id="guest-phone" class="formfield" type="text" value="" name="guestphone"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="guest-email">Email*</label><br/>
+						<input id="guest-email" class="formfield" type="text" value="" name="guestemail"></font></td>
+						
+						<td width="20%" ><font face="Calibri"><label class="label required" for="confirm-email">Confirm Email*</label><br/>
+						<input id="confirm-email" class="formfield" type="text" autocomplete="off" value="" name="confirmemail"></font></td>
+					</tr>
+					
+					<tr>
+						<td colspan="3"><font face="Calibri"><label class="label optional" for="special_requests">Special Requests</label><br/>
+						<textarea id="special_requests" class="wid750" cols="80" rows="6" name="specialrequests"></textarea></font></td>
+					</tr>
+					
+					<tr>
+						<td colspan="3"><font face="Calibri"><input id="recieve_email" class="wid20" type="checkbox" value="1" name="recievemail">
+						<label class="label optional" for="recieve_email">I would like to receive E-mail offers</label></font></td>
+					</tr>
+					<tr>
+						<td colspan="3" align="right"><font face="Calibri">
+					</tr>
+				</table>		
+			</dl>
+				
+			</fieldset>
+		</font>
+		</form>
+		<font face="Calibri">
+		<br/>
+		<br/>
+		
+		
+
+		</font>
+		
+		
+
+		<table cellpadding="5" width="1200px">
+					<tr>
+						<td width="40%" ><font face="Calibri"><input id="terms" type="checkbox" value="1" name="terms">
+							<label class="label optional" for="terms">I have read and I agree to the terms and conditions.
+								<a href="Website Terms.doc" target="_blank" >Click here </a>for more details.
+							</label></font></td>
+							
+						<td width="20%" align="center">
+						<a href="../billing%20interface/bill.html">
+						<font face="Calibri"><input id="submit" class="button proceed" type="submit" onclick="" value="Proceed to Pay" name="submit" width="100"></font></a><font face="Calibri">
+						</font>
+						</td>
+					</tr>
+		</table>
+		</div>
+					
+
+		
+		
+		
+ 		<font face="Calibri">
+					
+
+		
+		
+		
+ <br /> 
+  <br />  
+   		</font>  
+   <br />  
+    <br />  
+     <br />    
+        <div class="cbp-af-footer">
+        &nbsp;</div>
+		
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-gb">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#E4DCBB" onload="FP_preloadImgs(/*url*/'../images/Buttons/button48.gif', /*url*/'../images/Buttons/button49.gif', /*url*/'../images/Buttons/button50.gif', /*url*/'../images/Buttons/button51.gif', /*url*/'../images/Buttons/button54.gif', /*url*/'../images/Buttons/button55.gif', /*url*/'../images/Buttons/button56.gif', /*url*/'../images/Buttons/button57.gif', /*url*/'../images/Buttons/button58.gif', /*url*/'../images/Buttons/button59.gif', /*url*/'../images/Buttons/button3A.gif', /*url*/'../images/Buttons/button3B.gif', /*url*/'../images/Buttons/button3D.gif', /*url*/'../images/Buttons/button3E.gif')">
+
+<p align="left">
+<img border="0" src="../images/Gif%20files/Admin%20panel.gif" width="433" height="88"></p>
+<p align="left">
+<font face="Calibri">Select the service from which you wish to receive a query</font></p>
+<p align="left">
+<a href="../../../../../wamp/www/Trial2/Trial/RoomTrial.php">
+<img border="0" id="img1" src="../images/Buttons/button52.gif" height="28" width="140" alt="Rooms and Suites" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Rooms and Suites" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'../images/Buttons/button48.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/Buttons/button52.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'../images/Buttons/button49.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'../images/Buttons/button48.gif')"></a>&nbsp;&nbsp;
+<a href="Query_Wedding_Q.html">
+<img border="0" id="img2" src="../images/Buttons/button53.gif" height="28" width="140" alt="Wedding Halls" fp-style="fp-btn: Jewel 4; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Wedding Halls" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'../images/Buttons/button50.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'../images/Buttons/button53.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'../images/Buttons/button51.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'../images/Buttons/button50.gif')"></a><a href="Query_Conference_Q.html"><img border="0" id="img3" src="../images/Buttons/button60.gif" height="28" width="140" alt="Conference Halls" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Conference Halls" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'../images/Buttons/button54.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'../images/Buttons/button60.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'../images/Buttons/button55.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'../images/Buttons/button54.gif')"></a></p>
+<p align="left">
+<a href="Query_Workshop_Q.html">
+<img border="0" id="img4" src="../images/Buttons/button61.gif" height="28" width="140" alt="Workshop Halls" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'../images/Buttons/button56.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'../images/Buttons/button61.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'../images/Buttons/button57.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'../images/Buttons/button56.gif')" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Workshop Halls"></a>&nbsp;&nbsp;
+<a href="Query_Spa_Q.html">
+<img border="0" id="img5" src="../images/Buttons/button62.gif" height="28" width="140" alt="Spa" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'../images/Buttons/button58.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'../images/Buttons/button62.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'../images/Buttons/button59.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'../images/Buttons/button58.gif')" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Spa"></a><a href="Query_Gym_Q.html"><img border="0" id="img6" src="../images/Buttons/button63.gif" height="28" width="140" alt="Gym" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'../images/Buttons/button3A.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'../images/Buttons/button63.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'../images/Buttons/button3B.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'../images/Buttons/button3A.gif')" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Gym"></a></p>
+<p align="left">
+<a href="Query_Pool_Q.html">
+<img border="0" id="img7" src="../images/Buttons/button3C.gif" height="28" width="140" alt="Pool" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'../images/Buttons/button3D.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'../images/Buttons/button3C.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'../images/Buttons/button3E.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'../images/Buttons/button3D.gif')" fp-style="fp-btn: Jewel 4; fp-font: Calibri; fp-font-size: 11; fp-font-color-hover: #0000FF; fp-font-color-press: #00FFFF; fp-transparent: 1" fp-title="Pool"></a></p>
+<p align="left">
+&nbsp;</p>
+
+</body>
+
+</html>
